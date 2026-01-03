@@ -1,4 +1,5 @@
 PostVibe
+
 PostVibe is a dynamic React-based social media dashboard designed for a seamless content sharing experience. It utilizes advanced React patterns to manage a real-time feed, user interactions, and a clean, responsive interface.
 
 🚀 Key Features
