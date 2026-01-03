@@ -1,16 +1,42 @@
-# React + Vite
+PostVibe
+PostVibe is a dynamic React-based social media dashboard designed for a seamless content sharing experience. It utilizes advanced React patterns to manage a real-time feed, user interactions, and a clean, responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Key Features
+Centralized State: Powered by React Context API and the useReducer hook to maintain a "single source of truth" for all post data.
 
-Currently, two official plugins are available:
+Smart Data Fetching: Automatically populates the feed from an external API using useEffect with built-in cleanup logic (AbortController) to ensure performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interactive UI: * Create: Add new posts instantly with tags and reaction counters.
 
-## React Compiler
+Delete: Remove posts dynamically with a single click.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Loading States: Integrated LodingSpinner for a polished user experience during data transitions.
 
-## Expanding the ESLint configuration
+Responsive Design: A sleek layout built with Bootstrap 5, featuring a side-navigation drawer and mobile-friendly post cards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+Framework: React.js
+
+State Management: Context API & useReducer
+
+Icons: React Icons (MdDelete)
+
+UI Framework: Bootstrap 5
+
+API: DummyJSONProject HighlightsFeatureImplementationForm HandlinguseRef for high-performance, uncontrolled input components.Logic SeparationReducer logic is isolated in post-list-store.jsx for better maintainability.NavigationState-based conditional rendering for switching between "Home" and "Create Post".
+Installation
+Clone the project
+
+Bash
+
+git clone https://github.com/LalitMohanAgnihotri/Calculator.git
+Install dependencies
+
+Bash
+
+npm install
+Start the vibe
+
+Bash
+
+npm run dev
